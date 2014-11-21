@@ -1,0 +1,11 @@
+Title: Cultural Blog
+
+Subtitle: Fireside Chat Reflection
+
+Date: Nov 21, 2014
+
+My conception of Dev Bootcamp is that it is a learning environment where personal engagement is paramount, and I think the “restaurant vs. kitchen mentality” sums up the DBC experience and philosophy very well. Much of traditional education is based on the mentality of being served, rather than the mentality of being engaged, and I agree that this largely stems from our culture of consumerism. It can sometimes be difficult to get out of the consumer mindset because we tend to adopt that mentality in many other areas of our lives, so I am a bit nervous, but I think it will ultimately be a refreshing and rewarding experience. Being in an environment where others have adopted a kitchen mindset also makes it much easier to do the same.
+
+One thing that clicked with me while watching the video was the appropriateness of putting the more “rote memorization” or “muscle memory” learning portion of the course in Phase 0, as this allows Phases 1-3, when all the students are working together face-to-face, to be even more engaging, and I can see how this fits into the DBC philosophy. Admittedly, there are certain things you simply have to sit down and memorize, but by getting that out of the way in Phase 0, I can imagine how this would create an even more collaborative environment in future phases. From talking to several Chinese friends, I have heard that some children in China are often told to memorize their multiplication tables before they really even have the ability to understand what they are doing, so that when they do begin to learn multiplication, the building blocks are already there. This way, they come to not only understand the concepts, but implement them with speed.
+
+Lastly, the idea of being disciplined when it comes to extricating oneself from the depths of a specific problem (aka “a rabbit hole”) really resonated with me. I often find myself in this situation and sometimes don’t know how best to deal with it. Should I step back because I have been barking up the wrong tree for 3 hours or have I actually almost arrived at the solution? This can be a challenging call to make, and I hope to get better at it as I go through DBC.
