@@ -1,0 +1,11 @@
+Title: Gitting with the program
+
+Subtitle: My first blog post!
+
+Date: Nov 21, 2014
+
+One of the main reasons version control is so beneficial when working on coding projects is that they can quickly get very intricate and complicated, and version control helps you manage this complexity. Let’s say you’ve been working on a project which, up to the present moment, is functioning properly. You then go on to add another feature but realize this messes up the rest of your code. Instead of having to go back into your code and figure out which lines need to be surgically removed, you could have simply committed your changes at the time the code was running smoothly, and after problems arise, go back to the previous version to start with a clean slate. If you are worried in advance that the next feature you need to work on may prove troublesome, you can also use branching, which allows you to experiment with changes before deciding to include them in the master file. This allows you to experiment with an alternate reality that is built upon your existing (working) code, before deciding to commit to it.
+
+Git helps you keep track of changes through commits. Each “commit” is basically the saving of a new version of your code/project. For Mac users who use Time Machine: you can think of a commit like a backup, because a commit is simply the saving of a snapshot of your code at a given point in time.
+
+There are many reasons to store your code on Github. One of the main benefits of storing code on Github can be seen when working on group projects, or when you want to make your code for a certain program or piece of software you’ve created open source. When working on a team, each developer (no matter where they are on earth, as long as they have an internet connection), can pull and push changes to and from their local copy of the github repository to the online master repository, and thereby fetch the contributions of others to the same code while adding their own contributions. With open source software, having the source code on Github allows others to submit suggested improvements to your software, as well as personalize the software for their own particular needs.
