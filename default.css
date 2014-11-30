@@ -11,7 +11,16 @@
 	background-color: beige;
 	position: absolute;
 	height: 100%;
-	width: 120px;
+	width: 200px;
 	display: inline-block;
+	border-radius: 5px;
 }
 
+#main {
+	display: inline-block;
+
+}
+
+#about {
+	display: inline-block;
+}
