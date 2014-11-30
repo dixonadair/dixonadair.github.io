@@ -8,7 +8,7 @@
 }
 
 #sidebar {
-	background-color: beige;
+	background-color: #94B8FF;
 	position: absolute;
 	height: 100%;
 	width: 200px;
@@ -22,5 +22,14 @@
 }
 
 #about {
+	display: inline-block;
+	width: 500px;
+	
+}
+
+#portrait {
+	left: 400px;
+	height: 500px;
+	width: 390px;
 	display: inline-block;
 }
