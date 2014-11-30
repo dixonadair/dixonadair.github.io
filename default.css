@@ -25,7 +25,11 @@
 	width: 500px;
 	margin-left: 20px;
 	margin-top: 30px;
+}
 
+#about_header {
+	font-family: Arial;
+	display: inline-block;
 }
 
 #portrait {
