@@ -1,15 +1,17 @@
 #bar {
-	background-color: black;
+	background-color: beige;
 	display: block;
-	height: 30px;
+	height: 50px;
 	width: 100%;
 	top: 0px;
 	position: absolute;
 }
 
 #sidebar {
-	background-color: aqua;
+	background-color: beige;
 	position: absolute;
-	height: 300px;
+	height: 100%;
+	width: 120px;
+	display: inline-block;
 }
 
