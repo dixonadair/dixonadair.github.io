@@ -5,3 +5,9 @@
 	top: 0px;
 	position: absolute;
 }
+
+#sidebar {
+	background-color: aqua;
+	position: absolute;
+}
+
