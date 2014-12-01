@@ -1,0 +1,30 @@
+#topbar {
+	width: 100%;
+	height: 170px;
+	background-color: beige;
+	position: absolute;
+	text-align: center;
+	top: 0px;
+	display: block;
+	border: 
+}
+
+
+.heading {
+	font-family: Arial;
+}
+
+
+
+.post {
+	border: 4px solid red;
+	border-radius: 4px;
+
+	display: block;
+	top: 400px;
+}
+
+#allposts {
+	position: absolute;
+	top: 200px;
+}
