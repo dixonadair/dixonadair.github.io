@@ -1,0 +1,28 @@
+/* include your css here */
+
+	  p {
+        font-family: Arial;
+      }
+      
+      h3 {
+        font-family: Arial;
+      }
+      
+      .title {
+        display: block;
+        text-align: center;
+        font-family: Arial
+      }
+      
+      .footer {
+        font-family: Arial;
+        text-align: center;
+        clear: both;
+      }
+      
+      .sections {
+        width: 33.333%;
+        float: left;
+        display: block;
+        text-align: left;
+      }
