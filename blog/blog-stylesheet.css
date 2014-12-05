@@ -19,7 +19,6 @@
 .post {
 	border: 1px solid grey;
 	border-radius: 4px;
-
 	display: block;
 	top: 400px;
 }
@@ -27,4 +26,5 @@
 #allposts {
 	position: absolute;
 	top: 200px;
+	width: 60%;
 }
