@@ -10,4 +10,11 @@
 
 .nav_option {
 	padding: 15px;
+	margin-top: 15px;
+}
+
+#blog_hub_explanation {
+	top: 70px;
+	text-align: center;
+	width: 60%;
 }
