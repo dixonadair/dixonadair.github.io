@@ -13,7 +13,6 @@
 }
 
 #allposts {
-	position: absolute;
 	top: 200px;
 	width: 60%;
 	float: center;
@@ -23,4 +22,5 @@
 	display: block;
 	vertical-align: center;
 	line-height: 1.5em;
+	float: center;
 }
