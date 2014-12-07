@@ -1,27 +1,15 @@
 #topbar {
 	width: 100%;
 	height: 170px;
-	background-color: beige;
+	background-color: red;
 	position: absolute;
 	text-align: center;
 	top: 0px;
 	display: block;
-	border: 
 }
-
 
 .heading {
 	font-family: Arial;
-}
-
-
-
-.post {
-	border: 1px solid grey;
-	border-radius: 4px;
-	display: block;
-	top: 400px;
-	float: center;
 }
 
 #allposts {
@@ -29,4 +17,10 @@
 	top: 200px;
 	width: 60%;
 	float: center;
+}
+
+.post {
+	display: block;
+	top: 400px;
+	line-height: 1.5em;
 }
