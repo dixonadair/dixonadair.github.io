@@ -14,9 +14,9 @@
 }
 
 #blog_hub_explanation {
-	top: 200px;
+	position: absolute;
+	top: 300px;
 	width: 60%;
-	margin-left: 0;
-	margin-right: 0;
+	margin-left: 20%;
 	text-align: center;
 }
