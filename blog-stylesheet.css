@@ -15,7 +15,9 @@
 
 #blog_hub_explanation {
 	position: absolute;
-	top: 300px;
+	display: block;
+	clear: all;
+	margin-top: 300px;
 	width: 60%;
 	margin-left: 20%;
 	text-align: center;
