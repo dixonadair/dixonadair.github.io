@@ -18,13 +18,13 @@
 
   <div id="allposts">
   <p class="post">
-    Blogpost goes here.
+    The enumerable method “group_by” in Ruby can be very useful when we want to group elements in an array or hash in a certain way depending on their behavior, or “response”, to a certain question. Let’s say, for instance, that we have the numbers 1 through 100, and that we want to group together all the numbers that, when divided by five, will give a certain remainder. In this case, we could write the following code: (0..100).group_by { |num| num % 5 }. We would then get a list of each of the numbers in 0 through 100 clustered together according to their remainder when divided by five. All numbers, such as 5, 10, 15, 20, and so on, which are perfectly divisible by five and thus when divided by 5 have a remainder of 0, would be clustered together. The same would be true for all numbers that when divided by 5 give a remainder of 1, of 2, and so on.
   </p>
   <p class="post">
-    Blogpost goes here.
+    Another example of this might be if we wished to group together all elements, say names in this case, of the same length. In order to do this, in the block, we would simply call the .length method on each of the elements in the array of names upon which we are calling the .group_by method. For instance: array_of_names.group_by { |name| name.length }.
   </p>
   <p class="post">
-    Blogpost goes here.
+    In essence, “group_by” allows us to group together all elements whose result after being put through a certain formula (stimulus) is the same.
   </p>
 </div>
 
