@@ -1,0 +1,63 @@
+<!DOCTYPE html> 
+<html>
+<head>
+
+  <title>Ruby Classes</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="blog-stylesheet.css">
+
+</head>
+
+<body>
+<main>
+  <div id="topbar">
+    <h1 class="heading">Ruby Classes</h1>
+    <h2 class="heading">A Class on Classes</h2>
+    <h4 class="heading">Dec 18 2014</h4>
+  </div>
+
+  <div id="allposts">
+  <p class="post">
+    Classes are a key feature of object-oriented programming that allow us to efficiently categorize  different objects and give them certain shared characteristics and methods. By using classes, we can initialize similar objects under the umbrella of a single class and make these objects instances of that class. Let's say that we wanted to create a class called Person. Obviously, any person will have certain basic features like a name, a date of birth, a hometown, and so forth. To account for these characteristics, we can create instance variables which act as placeholders for the particular names, birthdates, etc that the persons we later initialize will have. We can also define methods within a class that will be applicable to all objects created as instances of that class. We might have walk, eat, sleep, study, and work methods for the Person class.
+
+    Typically, classes always have an initialize method at the beginning which define the way in which each object of the class will be created. With the Person class, a person will need to be assigned basic features from the start:
+
+    Jane_Smith = Person.New(Jane, Smith, 1994, Chicago)
+
+    These local variables will be entered by the user ("Jane", "Smith", etc.) and assigned to instance variables (with the "@" sign in front) which set the value of those variables for the particular Person instance that is being created.
+
+    We will also want to be able to call certain methods on an instance of a Person. Let's use "get_age" as an example: Because we know the birthyear of a given person, as this information was established when a person was initialized, we can call the get_age method on them (which takes in 1 argument, current_year) to get their age. "get_age" is an instance method because it is a method that can be called on any instance (person) of the Person class.
+
+    We can also use class methods, which are more general methods that apply to the class as a whole. Let's say we wanted to find out how many persons had been created so far. This information has nothing to do with any one person that has been created, but rather has to do with the Person class itself.
+
+    class Person
+      def initialize(first_name, last_name, birthyear, hometown)
+        @first_name = first_name
+        @last_name = last_name
+        @birthyear = birthyear
+        @hometown = hometown
+      end
+
+      def walk
+        #something
+      end
+
+      def eat
+        #something
+      end
+
+      def get_age(current_year)
+        @current_year = current_year
+        @age = 0
+        @age = @current_year - @birthyear
+        puts @age
+      end
+
+    end
+  </p>
+</div>
+
+</main>
+</body>
+
+</html>
