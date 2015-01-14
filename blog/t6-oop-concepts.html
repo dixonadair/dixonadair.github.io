@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html>
+<head>
+
+  <title>Variable Scope</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="blog-stylesheet.css">
+
+</head>
+
+<body>
+<main>
+  <div id="topbar">
+    <h1 class="heading">Variable Scope</h1>
+    <h2 class="heading">Variable Scope in Ruby</h2>
+    <h4 class="heading">Jan 13 2014</h4>
+  </div>
+
+  <div id="allposts">
+  <p class="post">
+    There are essentially 4 types of variable scope in Ruby, in addition to a constant scope: There are CONSTANTS, $global variables, @@class variables, @instance variables, and local variables. Variable scope is used to distinguish between and assign different scopes of applicability to different types of variables. For example, a constant like pi will always be equal to 3.1415926... no matter where it may appear in a program, or anywhere for that matter. For this reason, it makes sense to declare pi as a constant, so that it can be accessed anywhere within a program when needed with the same unchanging value. Global variables, which are written with a "$" sign in front, are similar to constants in that they are accessible throughout an entire program no matter where they are declared.
+  </p>
+  <p class="post">
+    Class variables, which must be declared with "@@" in front of their name, are applicable to the entire class for which they are declared. For instance, with the Person class, many Person instances can be created, and there might be a class variable called count, which would be equal to the number of Person instances currently in existence. Such a variable has nothing to do with any particular instance of the Person class, but rather, with the Person class as a whole.
+  </p>
+  <p class="post">
+    Instance variables are variables that are applicable to any given instance of the particular class they are declared for. For instance, for a Person class, we might declare an instance variable "height" to get the height of a Person instance. Finally, local variables are the most restricted in that they are only accessible/applicable inside of the method, loop, or other programming construct in which they are declared.
+  </p>
+</div>
+
+</main>
+</body>
+
+</html>
