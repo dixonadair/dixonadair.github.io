@@ -22,7 +22,7 @@
 
     For instance, one difference is the way hashes are written in Ruby vs. the way that their equivalent (objects) are written in JavaScript. In Ruby, the most conventional way to write a hash (if you were writing the hash all at once from the beginning), is as follows:
   </p>
-  
+
   <pre>
   <code>
     Capitals = { "Georgia" => "Atlanta",
@@ -31,7 +31,20 @@
   </code>
   </pre>
 
-  <p>
+  <p class="post">
+    You could also create a new empty hash and then fill its contents as you went along, as follows:
+  </p>
+
+  <pre>
+  <code>
+    Capitals = Hash.new
+    Capitals["Georgia"] = "Atlanta"
+    Capitals["Alabama"] = "Montgomery"
+    Capitals["Mississippi"] = "Jackson"
+  </code>
+  </pre>
+
+  <p class="post">
     In Javascript, the same hash above would be written as an object as follows:
   </p>
 
@@ -45,13 +58,20 @@
   </code>
   </pre>
 
-<!--   </p>
   <p class="post">
-    Blogpost goes here.
+    You can also create objects within objects, like so:
   </p>
-  <p class="post">
-    Blogpost goes here.
-  </p> -->
+
+  <pre>
+  <code>
+    jim.children = {
+      carson: {name: "Carson"},
+      carter: {name: "Carter"},
+      colton: {name: "Colton"}
+    }
+  </code>
+  </pre>
+
 </div>
 
 </main>
