@@ -18,7 +18,7 @@
 	text-align: center;
 	font-size: 1em;
 	background-color: green;
-	display: block;
+	display: inline-block;
 	width: 23%;
 	margin: auto;
 	float: center;
@@ -34,9 +34,9 @@
 	text-align: center;
 	font-size: 1em;
 	background-color: beige;
-	display: inline-block;
-	height: 180px;
-	width: 46%;
+	display: block;
+	height: 280px;
+	width: 80%;
 	border-radius: 15px;
 	padding: 10px;
 	border: 10px;
