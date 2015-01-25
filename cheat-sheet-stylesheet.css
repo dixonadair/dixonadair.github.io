@@ -1,0 +1,54 @@
+#header {
+	text-align: center;
+	font-size: 1.5em;
+	background-color: blue;
+	width: 100%;
+	line-height: 100px;
+	vertical-align: center;
+	margin-bottom: 10px;
+}
+
+#topics {
+	width: 60%;
+	margin: auto;
+	text-align: center;
+}
+
+#topics div {
+	text-align: center;
+	font-size: 1em;
+	background-color: green;
+	display: inline-block;
+	width: 20%;
+	margin: auto;
+	float: center;
+}
+
+#big_box {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+#big_box div {
+	text-align: center;
+	font-size: 1em;
+	background-color: green;
+	display: inline-block;
+	height: 180px;
+	width: 46%;
+	border-radius: 15px;
+	padding: 10px;
+	border: 10px;
+	margin: 10px;
+}
+
+* {
+	border: 1px solid red;
+}
+
+
+
+
+
+
