@@ -30,25 +30,9 @@
 	text-align: center;
 }
 
-#big_box div {
-	text-align: center;
-	font-size: 1em;
-	background-color: beige;
-	display: block;
-	height: 280px;
-	width: 80%;
-	border-radius: 15px;
-	padding: 10px;
-	border: 10px;
-	margin: 10px;
+#big_box img {
+	vertical-align: center;
+	text-align: left;
 }
-
-* {
-	border: 1px solid red;
-}
-
-
-
-
 
 
